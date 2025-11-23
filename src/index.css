@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+button {
+  display: block;
+  cursor: pointer;
+  border: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid #333;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 24px;
+}
+
+.btns button.incrementBtn,
+.btns button.decrementBtn {
+  padding: 10px 14px;
+  border-radius: 100%;
+}
+
+.btns button.incrementBtn {
+  color: #fff;
+  background: green;
+}
+
+.btns button.decrementBtn {
+  color: #fff;
+  background: red;
+}
+
+.countDisplay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 12px;
+  color: #fff;
+  background: #333;
+}
