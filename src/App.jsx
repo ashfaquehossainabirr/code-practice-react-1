@@ -1,31 +1,17 @@
-import React, { useState } from 'react'
+import React from 'react'
+import "./App.css"
+import Counter from './pages/Counter'
+import StudentData from './components/StudentData'
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  function incrementFunc() {
-    setCount(count + 1)
-  }
-
-  const decrementFunc = () => {
-    if(count <= 0) {
-      setCount(0)
-    } else {
-      setCount(count - 1)
-    }
-  }
-
   return (
     <>
-      <div className="box">
-        <div className="countDisplay">
-          <p>Count: { count }</p>
-        </div>
+      <div className="Wrapper">
+        <h1>Hello World!</h1>
+        <Counter />
 
-        <div className="btns">
-          <button className="incrementBtn" onClick={ incrementFunc }>+</button>
-          <button className="decrementBtn" onClick={ decrementFunc }>-</button>
-        </div>
+        {/* Students Data */}
+        <StudentData name="Abir Mamu" age={ 26 } isStudent={ true } />
       </div>
     </>
   )
