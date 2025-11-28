@@ -18,3 +18,12 @@ button {
 ul, ol {
   list-style: none;
 }
+
+.student-card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 12px;
+}

@@ -12,6 +12,7 @@ function App() {
 
         {/* Students Data */}
         <StudentData name="Abir Mamu" age={ 26 } isStudent={ true } />
+        <StudentData name="Nahid Usha" age={ 24 } isStudent={ true } />
       </div>
     </>
   )
