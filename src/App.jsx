@@ -2,6 +2,7 @@ import React from 'react'
 import "./App.css"
 import Counter from './pages/Counter'
 import StudentData from './components/StudentData'
+import UserGreeting from './components/userGreeting'
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
 
         {/* Students Data */}
         <StudentData name="Abir Mamu" age={ 26 } isStudent={ true } />
-        <StudentData name="Nahid Usha" age={ 24 } isStudent={ true } />
+        <StudentData name="Nahid Usha" age="24" isStudent={ true } />
+
+        <UserGreeting name="Abir" isLoggedIn={ false }/>
       </div>
     </>
   )

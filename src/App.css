@@ -45,3 +45,17 @@ body {
   color: #fff;
   background: #333;
 }
+
+.welcome-msg {
+  padding: 10px;
+  border-radius: 12px;
+  color: #fff;
+  background: green;
+}
+
+.logout {
+  padding: 10px;
+  border-radius: 12px;
+  color: #fff;
+  background: red;
+}
